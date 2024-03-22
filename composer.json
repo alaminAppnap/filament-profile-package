@@ -1,17 +1,17 @@
 {
-    "name": "ryangjchandler/blade-capture-directive",
+    "name": "alaminAppnap/blade-capture-directive",
     "description": "Create inline partials in your Blade templates with ease.",
     "keywords": [
-        "ryangjchandler",
+        "alaminAppnap",
         "laravel",
-        "blade-capture-directive"
+        "filament-profile-package"
     ],
-    "homepage": "https://github.com/ryangjchandler/blade-capture-directive",
+    "homepage": "https://github.com/alaminAppnap/filament-profile-package",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ryan Chandler",
-            "email": "support@ryangjchandler.co.uk",
+            "name": "MD.AL AMIN",
+            "email": "alamin@appnap.io",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "RyanChandler\\BladeCaptureDirective\\": "src",
-            "RyanChandler\\BladeCaptureDirective\\Database\\Factories\\": "database/factories"
+            "AlaminAppnap\\BladeCaptureDirective\\": "src",
+            "AlaminAppnap\\BladeCaptureDirective\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RyanChandler\\BladeCaptureDirective\\Tests\\": "tests"
+            "AlaminAppnap\\BladeCaptureDirective\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -58,10 +58,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RyanChandler\\BladeCaptureDirective\\BladeCaptureDirectiveServiceProvider"
+                "AlaminAppnap\\BladeCaptureDirective\\BladeCaptureDirectiveServiceProvider"
             ],
             "aliases": {
-                "BladeCaptureDirective": "RyanChandler\\BladeCaptureDirective\\Facades\\BladeCaptureDirective"
+                "BladeCaptureDirective": "AlaminAppnap\\BladeCaptureDirective\\Facades\\BladeCaptureDirective"
             }
         }
     },
